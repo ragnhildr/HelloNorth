@@ -27,4 +27,27 @@
             height: 30px;
             background-color: rgba(2, 2, 2, 0.705);
             color: rgb(255, 251, 251);
-        }
+
+
+
+html {scroll-behavior: smooth;}
+  
+  /* width */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #390707ba; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:rgba(11, 2, 36, 0.735) ; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:rgb(239, 240, 244); 
+}
